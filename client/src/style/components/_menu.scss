@@ -1,0 +1,33 @@
+.menu{
+  float: right;
+  background: $color-orange;
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+}
+.menuitems{
+  height: 200px;
+  margin: 0;
+}
+
+.menu img{
+  width: 200px;
+  height: 150px;
+}
+.menu a{
+  color: $color-orange;
+  font-size: 20px;
+  border-radius: 3px;
+  background: $color-red;
+  height: 22px;
+  width: 130px;
+  text-align: center;
+  padding: 2px 2px;
+  position: fixed;
+  bottom: 110px;
+  right: 150px;
+}
